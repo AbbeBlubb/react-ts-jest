@@ -1,4 +1,4 @@
-# Using Jest to test events in a react-typescript project
+# (WIP) Using Jest to test events in a react-typescript project
 
 
 (-S)
@@ -25,7 +25,15 @@ TS setup
 React build
 - webpack.config.js
 > npx webpack
+- NO HOT RELOAD
 
 App
 - index.html
 - src/index.tsx
+
+
+Jest setup
+- jest.config.js
+- package.json scrips
+- tsconfig.json "esModuleInterop": true
+- src/globals.d.ts to ensure additional Jest matchers are available for all test files
