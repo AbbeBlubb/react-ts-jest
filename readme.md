@@ -24,7 +24,7 @@ TS setup
 
 React build
 - webpack.config.js
-- npx webpack
+> npx webpack
 
 App
 - index.html
